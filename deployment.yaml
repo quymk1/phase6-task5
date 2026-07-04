@@ -5,7 +5,7 @@ metadata:
   labels:
     app: myapp
 spec:
-  replicas: 1
+  replicas: 3
   strategy:
     canary:
       canaryService: myapp-canary # Trỏ tới Service Canary (đã định nghĩa trong service.yaml)
